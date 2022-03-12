@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="DebuggingLogTextBox" HorizontalAlignment="Left" Height="157" Margin="156,144,0,0" TextWrapping="Wrap" Text="DebuggingTextBox: &#xD;&#xA;" VerticalAlignment="Top" Width="337"/>
+        <Rectangle x:Name="RelativeRec" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="15" Margin="156,56,0,0" Stroke="Black" VerticalAlignment="Top" Width="15"/>
+
     </Grid>
 </Window>
